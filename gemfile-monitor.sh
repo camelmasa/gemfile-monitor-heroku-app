@@ -1,18 +1,15 @@
 #!/bin/sh
 SHELL=/bin/bash
 
-# account
-username=''
-password=''
+# git repository
 repository=''
 
 # repository
-url='github.com'
 date=`date '+%Y-%m-%d'`
 branch='update-gemfile-${date}'
 
 mv bundle_config .bundle/config
-git clone https://${username}:${password}@${url}/${repository}.git repo
+git clone ${repository} repo
 cd repo
 git checkout -b ${branch}
 bundle update
