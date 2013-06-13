@@ -1,7 +1,7 @@
 #!/bin/sh
 SHELL=/bin/bash
 
-# git repository
+# monitor github repository
 repository=''
 
 # repository
