@@ -2,7 +2,7 @@
 SHELL=/bin/bash
 
 # monitor github repository
-repository=''
+repository='' # example. git@github.com:camelmasa/animate-rails.git
 
 # repository
 date=`date '+%Y-%m-%d'`
