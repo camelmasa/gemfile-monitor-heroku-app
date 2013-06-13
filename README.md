@@ -12,9 +12,11 @@ cd gemfile-monitor-heroku-app
 ```
 
 Update config files.
+```
 cp ~/.ssh/id_rsa* .ssh
 cp ~/.config/hub .config/hub
 vi gemfile-monitor.sh  # Edit monitor github repository
+git add .
 git commit -m 'Update config files'
 ```
 
