@@ -6,7 +6,7 @@ repository='' # example. git@github.com:camelmasa/animate-rails.git
 
 # repository
 date=`date '+%Y-%m-%d'`
-branch='update-gemfile-${date}'
+branch="update-gemfile-${date}"
 
 mv bundle_config .bundle/config
 git clone ${repository} repo
