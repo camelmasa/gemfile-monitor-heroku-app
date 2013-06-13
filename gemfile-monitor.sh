@@ -2,14 +2,14 @@
 SHELL=/bin/bash
 
 # account
-username=""
-password=""
-repository=""
+username=''
+password=''
+repository=''
 
 # repository
-url="github.com"
+url='github.com'
 date=`date '+%Y-%m-%d'`
-branch="update-gemfile-${date}"
+branch='update-gemfile-${date}'
 
 mv bundle_config .bundle/config
 git clone https://${username}:${password}@${url}/${repository}.git repo
